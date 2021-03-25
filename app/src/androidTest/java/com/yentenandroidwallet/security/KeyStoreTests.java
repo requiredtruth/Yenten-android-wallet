@@ -1,13 +1,13 @@
-package com.elicoinwallet.security;
+package com.yentenandroidwallet.security;
 
 import android.app.Activity;
 import android.security.keystore.UserNotAuthenticatedException;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 
-import com.elicoinwallet.presenter.activities.settings.TestActivity;
-import com.elicoinwallet.tools.security.BRKeyStore;
-import com.elicoinwallet.tools.threads.executor.BRExecutor;
+import com.yentenandroidwallet.presenter.activities.settings.TestActivity;
+import com.yentenandroidwallet.tools.security.BRKeyStore;
+import com.yentenandroidwallet.tools.threads.executor.BRExecutor;
 
 import org.junit.Assert;
 import org.junit.Rule;
@@ -16,9 +16,9 @@ import org.junit.runner.RunWith;
 
 import java.math.BigDecimal;
 
-import static com.elicoinwallet.tools.security.BRKeyStore.SPEND_LIMIT_ALIAS;
-import static com.elicoinwallet.tools.security.BRKeyStore.TOTAL_LIMIT_ALIAS;
-import static com.elicoinwallet.tools.security.BRKeyStore.aliasObjectMap;
+import static com.yentenandroidwallet.tools.security.BRKeyStore.SPEND_LIMIT_ALIAS;
+import static com.yentenandroidwallet.tools.security.BRKeyStore.TOTAL_LIMIT_ALIAS;
+import static com.yentenandroidwallet.tools.security.BRKeyStore.aliasObjectMap;
 
 
 /**

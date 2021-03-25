@@ -1,4 +1,4 @@
-package com.elicoinwallet.wallet;
+package com.yentenandroidwallet.wallet;
 
 import android.app.Activity;
 import android.support.test.filters.LargeTest;
@@ -6,19 +6,19 @@ import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.util.Log;
 
-import com.elicoinwallet.core.BRCoreMasterPubKey;
-import com.elicoinwallet.presenter.activities.settings.TestActivity;
-import com.elicoinwallet.presenter.entities.CurrencyEntity;
-import com.elicoinwallet.presenter.entities.CryptoRequest;
-import com.elicoinwallet.tools.manager.BRSharedPrefs;
-import com.elicoinwallet.tools.security.BRKeyStore;
-import com.elicoinwallet.tools.sqlite.CurrencyDataSource;
-import com.elicoinwallet.wallet.abstracts.BaseWalletManager;
-import com.elicoinwallet.wallet.wallets.bitcoin.WalletBchManager;
-import com.elicoinwallet.wallet.util.CryptoUriParser;
-import com.elicoinwallet.tools.util.BRConstants;
-import com.elicoinwallet.wallet.wallets.bitcoin.WalletBitcoinManager;
-import com.elicoinwallet.wallet.wallets.etherium.WalletEthManager;
+import com.yentenandroidwallet.core.BRCoreMasterPubKey;
+import com.yentenandroidwallet.presenter.activities.settings.TestActivity;
+import com.yentenandroidwallet.presenter.entities.CurrencyEntity;
+import com.yentenandroidwallet.presenter.entities.CryptoRequest;
+import com.yentenandroidwallet.tools.manager.BRSharedPrefs;
+import com.yentenandroidwallet.tools.security.BRKeyStore;
+import com.yentenandroidwallet.tools.sqlite.CurrencyDataSource;
+import com.yentenandroidwallet.wallet.abstracts.BaseWalletManager;
+import com.yentenandroidwallet.wallet.wallets.bitcoin.WalletBchManager;
+import com.yentenandroidwallet.wallet.util.CryptoUriParser;
+import com.yentenandroidwallet.tools.util.BRConstants;
+import com.yentenandroidwallet.wallet.wallets.bitcoin.WalletBitcoinManager;
+import com.yentenandroidwallet.wallet.wallets.etherium.WalletEthManager;
 
 
 import org.junit.After;

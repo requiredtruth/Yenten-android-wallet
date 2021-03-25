@@ -1,4 +1,4 @@
-package com.elicoinwallet.database;
+package com.yentenandroidwallet.database;
 
 import android.app.Activity;
 import android.support.test.filters.LargeTest;
@@ -6,18 +6,18 @@ import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.util.Log;
 
-import com.elicoinwallet.presenter.activities.settings.TestActivity;
-import com.elicoinwallet.presenter.entities.BRMerkleBlockEntity;
-import com.elicoinwallet.presenter.entities.BRPeerEntity;
-import com.elicoinwallet.presenter.entities.BRTransactionEntity;
-import com.elicoinwallet.presenter.entities.BlockEntity;
-import com.elicoinwallet.presenter.entities.CurrencyEntity;
-import com.elicoinwallet.presenter.entities.PeerEntity;
-import com.elicoinwallet.tools.sqlite.BtcBchTransactionDataStore;
-import com.elicoinwallet.tools.sqlite.CurrencyDataSource;
-import com.elicoinwallet.tools.sqlite.MerkleBlockDataSource;
-import com.elicoinwallet.tools.sqlite.PeerDataSource;
-import com.elicoinwallet.tools.threads.executor.BRExecutor;
+import com.yentenandroidwallet.presenter.activities.settings.TestActivity;
+import com.yentenandroidwallet.presenter.entities.BRMerkleBlockEntity;
+import com.yentenandroidwallet.presenter.entities.BRPeerEntity;
+import com.yentenandroidwallet.presenter.entities.BRTransactionEntity;
+import com.yentenandroidwallet.presenter.entities.BlockEntity;
+import com.yentenandroidwallet.presenter.entities.CurrencyEntity;
+import com.yentenandroidwallet.presenter.entities.PeerEntity;
+import com.yentenandroidwallet.tools.sqlite.BtcBchTransactionDataStore;
+import com.yentenandroidwallet.tools.sqlite.CurrencyDataSource;
+import com.yentenandroidwallet.tools.sqlite.MerkleBlockDataSource;
+import com.yentenandroidwallet.tools.sqlite.PeerDataSource;
+import com.yentenandroidwallet.tools.threads.executor.BRExecutor;
 
 import org.junit.After;
 import org.junit.Assert;

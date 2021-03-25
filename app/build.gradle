@@ -55,7 +55,7 @@ android {
     flavorDimensions "mode"
     productFlavors {
         eli {
-            applicationId = "com.yentenwallet"
+            applicationId = "com.yentenandroidwallet"
             dimension "mode"
             resValue "string", "app_name", "Yenten Wallet"
             buildConfigField "boolean", "BITCOIN_TESTNET", "false"
@@ -70,9 +70,9 @@ android {
             }
         }
         eliTestnet {
-            applicationId = "com.yentenwallet"
+            applicationId = "com.yentenandroidwallet"
             dimension "mode"
-            resValue "string", "app_name", "ELI-testnet"
+            resValue "string", "app_name", "YTN-testnet"
             buildConfigField "boolean", "BITCOIN_TESTNET", "true"
             externalNativeBuild {
                 cmake {

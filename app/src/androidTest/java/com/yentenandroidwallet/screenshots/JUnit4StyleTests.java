@@ -1,12 +1,12 @@
-package com.elicoinwallet.screenshots;
+package com.yentenandroidwallet.screenshots;
 
 import android.os.Build;
 import android.support.test.espresso.Espresso;
 import android.support.test.espresso.IdlingPolicies;
 import android.support.test.rule.ActivityTestRule;
 
-import com.elicoinwallet.R;
-import com.elicoinwallet.presenter.activities.settings.TestActivity;
+import com.yentenandroidwallet.R;
+import com.yentenandroidwallet.presenter.activities.settings.TestActivity;
 
 import org.junit.After;
 import org.junit.Before;

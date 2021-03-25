@@ -513,7 +513,7 @@
   <!-- Description for sending money label -->
   <string name="Send.descriptionLabel">Memo</string>
   <!-- Description for sending money label -->
-  <string name="Send.descriptionFee">Network Fee: 0 ELI</string>
+  <string name="Send.descriptionFee">Network Fee: 0 YTN</string>
   <!-- Emtpy pasteboard error message -->
   <string name="Send.emptyPasteboard">Pasteboard is empty</string>
   <!-- "(you) can't send (to your)self" -->

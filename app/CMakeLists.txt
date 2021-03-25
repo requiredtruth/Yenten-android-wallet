@@ -80,32 +80,32 @@ add_library( # The name of the library.
              # Core JNI files
              src/main/jni/breadwallet-core/Java/BRCoreJni.h
              src/main/jni/breadwallet-core/Java/BRCoreJni.c
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCoreJniReference.c
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCoreJniReference.h
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCoreAddress.c
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCoreAddress.h
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCoreChainParams.c
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCoreChainParams.h
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCorePeer.c
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCorePeer.h
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCoreMasterPubKey.c
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCoreMasterPubKey.h
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCoreKey.h
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCoreKey.c
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCoreMerkleBlock.c
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCoreMerkleBlock.h
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCorePeerManager.c
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCorePeerManager.h
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCoreTransaction.c
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCoreTransaction.h
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCoreTransactionInput.c
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCoreTransactionInput.h
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCoreTransactionOutput.c
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCoreTransactionOutput.h
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCorePaymentProtocol.c
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCorePaymentProtocol.h
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCoreWallet.c
-             src/main/jni/breadwallet-core/Java/com_elicoinwallet_core_BRCoreWallet.h
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreJniReference.c
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreJniReference.h
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreAddress.c
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreAddress.h
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreChainParams.c
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreChainParams.h
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCorePeer.c
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCorePeer.h
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreMasterPubKey.c
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreMasterPubKey.h
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreKey.h
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreKey.c
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreMerkleBlock.c
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreMerkleBlock.h
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCorePeerManager.c
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCorePeerManager.h
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreTransaction.c
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreTransaction.h
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreTransactionInput.c
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreTransactionInput.h
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreTransactionOutput.c
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreTransactionOutput.h
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCorePaymentProtocol.c
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCorePaymentProtocol.h
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreWallet.c
+             src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreWallet.h
 
              # Bech32 files
              src/main/jni/breadwallet-core/BRBech32.c
@@ -152,16 +152,16 @@ add_library( # The name of the library.
              src/main/jni/breadwallet-core/ethereum/util/BRUtilMathParse.c
 
              #Ethereum JNI files
-             src/main/jni/breadwallet-core/ethereum/Java/com_elicoinwallet_core_ethereum_BREthereumAccount.h
-             src/main/jni/breadwallet-core/ethereum/Java/com_elicoinwallet_core_ethereum_BREthereumAmount.h
-             src/main/jni/breadwallet-core/ethereum/Java/com_elicoinwallet_core_ethereum_BREthereumLightNode.c
-             src/main/jni/breadwallet-core/ethereum/Java/com_elicoinwallet_core_ethereum_BREthereumLightNode.h
-             src/main/jni/breadwallet-core/ethereum/Java/com_elicoinwallet_core_ethereum_BREthereumNetwork.c
-             src/main/jni/breadwallet-core/ethereum/Java/com_elicoinwallet_core_ethereum_BREthereumNetwork.h
-             src/main/jni/breadwallet-core/ethereum/Java/com_elicoinwallet_core_ethereum_BREthereumToken.c
-             src/main/jni/breadwallet-core/ethereum/Java/com_elicoinwallet_core_ethereum_BREthereumToken.h
-             src/main/jni/breadwallet-core/ethereum/Java/com_elicoinwallet_core_ethereum_BREthereumTransaction.h
-             src/main/jni/breadwallet-core/ethereum/Java/com_elicoinwallet_core_ethereum_BREthereumWallet.h
+             src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumAccount.h
+             src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumAmount.h
+             src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumLightNode.c
+             src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumLightNode.h
+             src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumNetwork.c
+             src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumNetwork.h
+             src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumToken.c
+             src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumToken.h
+             src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumTransaction.h
+             src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumWallet.h
 
              )
 

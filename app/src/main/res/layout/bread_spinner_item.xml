@@ -17,7 +17,7 @@
 ** limitations under the License.
 */
 -->
-<com.elicoinwallet.presenter.customviews.BRText
+<com.yentenandroidwallet.presenter.customviews.BRText
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@android:id/text1"
     style="?android:attr/spinnerItemStyle"

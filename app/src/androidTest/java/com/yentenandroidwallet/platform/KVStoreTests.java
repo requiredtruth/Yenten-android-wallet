@@ -1,19 +1,19 @@
-package com.elicoinwallet.platform;
+package com.yentenandroidwallet.platform;
 
 import android.support.test.filters.LargeTest;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 
-import com.elicoinwallet.presenter.activities.intro.WriteDownActivity;
-import com.elicoinwallet.tools.threads.executor.BRExecutor;
-import com.elicoinwallet.tools.util.BRConstants;
-import com.eliplatform.entities.TxMetaData;
-import com.eliplatform.interfaces.KVStoreAdaptor;
-import com.eliplatform.kvstore.CompletionObject;
-import com.eliplatform.kvstore.ReplicatedKVStore;
-import com.eliplatform.sqlite.KVItem;
-import com.eliplatform.sqlite.PlatformSqliteHelper;
-import com.eliplatform.tools.KVStoreManager;
+import com.yentenandroidwallet.presenter.activities.intro.WriteDownActivity;
+import com.yentenandroidwallet.tools.threads.executor.BRExecutor;
+import com.yentenandroidwallet.tools.util.BRConstants;
+import com.ytnplatform.entities.TxMetaData;
+import com.ytnplatform.interfaces.KVStoreAdaptor;
+import com.ytnplatform.kvstore.CompletionObject;
+import com.ytnplatform.kvstore.ReplicatedKVStore;
+import com.ytnplatform.sqlite.KVItem;
+import com.ytnplatform.sqlite.PlatformSqliteHelper;
+import com.ytnplatform.tools.KVStoreManager;
 
 import org.junit.After;
 import org.junit.Assert;

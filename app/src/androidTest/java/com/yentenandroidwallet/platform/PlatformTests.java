@@ -1,15 +1,15 @@
-package com.elicoinwallet.platform;
+package com.yentenandroidwallet.platform;
 
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.util.Log;
 
-import com.elicoinwallet.ElicoinApp;
-import com.elicoinwallet.presenter.activities.settings.TestActivity;
-import com.elicoinwallet.tools.util.BRCompressor;
-import com.elicoinwallet.tools.util.BRConstants;
-import com.elicoinwallet.tools.util.Utils;
-import com.eliplatform.APIClient;
+import com.yentenandroidwallet.YentenApp;
+import com.yentenandroidwallet.presenter.activities.settings.TestActivity;
+import com.yentenandroidwallet.tools.util.BRCompressor;
+import com.yentenandroidwallet.tools.util.BRConstants;
+import com.yentenandroidwallet.tools.util.Utils;
+import com.ytnplatform.APIClient;
 
 import org.apache.commons.io.IOUtils;
 import org.junit.Assert;
@@ -23,7 +23,7 @@ import java.io.IOException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-import static com.eliplatform.APIClient.BREAD_POINT;
+import static com.ytnplatform.APIClient.BREAD_POINT;
 import okhttp3.Request;
 import okhttp3.Response;
 
@@ -65,7 +65,7 @@ public class PlatformTests {
     // host is the server(s) on which the API is hosted
 //    private static final String HOST = "api.breadwallet.com";
     // convenience getter for the API endpoint
-    private static final String BASE_URL = PROTO + "://" + ElicoinApp.HOST;
+    private static final String BASE_URL = PROTO + "://" + YentenApp.HOST;
     //feePerKb url
     private static final String FEE_PER_KB_URL = "/v1/fee-per-kb";
     //token

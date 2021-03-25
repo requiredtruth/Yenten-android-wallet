@@ -1,4 +1,4 @@
-<com.elicoinwallet.presenter.customviews.BRRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.yentenandroidwallet.presenter.customviews.BRRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                                                         xmlns:app="http://schemas.android.com/apk/res-auto"
                                                         android:id="@+id/layout"
                                                         android:layout_width="match_parent"
@@ -34,7 +34,7 @@
                 android:background="@drawable/ic_close_white_24dp"
                 />
 
-            <com.elicoinwallet.presenter.customviews.BRText
+            <com.yentenandroidwallet.presenter.customviews.BRText
                 android:id="@+id/title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -69,7 +69,7 @@
 
     </LinearLayout>
 
-    <com.elicoinwallet.presenter.customviews.BRText
+    <com.yentenandroidwallet.presenter.customviews.BRText
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -92,4 +92,4 @@
 
     </ListView>
 
-</com.elicoinwallet.presenter.customviews.BRRelativeLayout>
+</com.yentenandroidwallet.presenter.customviews.BRRelativeLayout>
