@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "261637127996",
+    "project_id": "yenten-android-wallet",
+    "storage_bucket": "yenten-android-wallet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261637127996:android:d969228e4e41790abaa839",
+        "android_client_info": {
+          "package_name": "com.yentenandroidwallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261637127996-5bp8tnikedfinjj8jdln53dujl538d3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKPPRL_2fmL31ueeAjKsvRo_McbH3C2rA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261637127996-5bp8tnikedfinjj8jdln53dujl538d3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,168 @@
+apply plugin: 'com.android.application'
+
+android {
+//    signingConfigs {
+//        config {
+//            keyAlias 'key0'
+//            keyPassword '123456'
+//            storeFile file('/home/dude/Otherdisc/home/dude/Keys/key.jks')
+//            storePassword '123456'
+//        }
+//        config1 {
+//        }
+//    }
+    compileSdkVersion = 27
+    buildToolsVersion = '27.0.3'
+    defaultConfig {
+        testInstrumentationRunner = 'android.support.test.runner.AndroidJUnitRunner'
+        applicationId = 'com.yentenandroidwallet'
+        minSdkVersion 23
+        targetSdkVersion 27
+        versionCode 232
+        versionName "232"
+        multiDexEnabled true
+        // Similar to other properties in the defaultConfig block,
+        // you can configure the ndk block for each product flavor
+        // in your build configuration.
+        ndk {
+            // Specifies the ABI configurations of your native
+            // libraries Gradle should build and package with your APK.
+            abiFilters 'x86', 'x86_64', 'armeabi', 'armeabi-v7a', 'arm64-v8a'
+        }
+        externalNativeBuild {
+            cmake {
+                arguments '-DANDROID_TOOLCHAIN=clang', '-DANDROID_STL=gnustl_static'
+            }
+        }
+//        signingConfig signingConfigs.config
+    }
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+    packagingOptions {
+        pickFirst 'protobuf.meta'
+    }
+    externalNativeBuild {
+        cmake {
+            // When you specify a version of CMake, as shown below,
+            // the Android plugin searches for its binary within your
+            // PATH environmental variable.
+            path "CMakeLists.txt"  //path can only be set outside (in android block)
+
+        }
+    }
+    // Specifies two flavor dimensions.
+    flavorDimensions "mode"
+    productFlavors {
+        eli {
+            applicationId = "com.yentenwallet"
+            dimension "mode"
+            resValue "string", "app_name", "Yenten Wallet"
+            buildConfigField "boolean", "BITCOIN_TESTNET", "false"
+            externalNativeBuild {
+                cmake {
+                    // When you specify a version of CMake, as shown below,
+                    // the Android plugin searches for its binary within your
+                    // PATH environmental variable.
+                    cFlags "-DBITCOIN_TESTNET=0"
+                    targets "core"
+                }
+            }
+        }
+        eliTestnet {
+            applicationId = "com.yentenwallet"
+            dimension "mode"
+            resValue "string", "app_name", "ELI-testnet"
+            buildConfigField "boolean", "BITCOIN_TESTNET", "true"
+            externalNativeBuild {
+                cmake {
+                    // When you specify a version of CMake, as shown below,
+                    // the Android plugin searches for its binary within your
+                    // PATH environmental variable.
+                    cFlags "-DBITCOIN_TESTNET=1"
+                    targets "core"
+                }
+            }
+        }
+    }
+    lintOptions {
+        // set to true to turn off analysis progress reporting by lint
+        quiet false
+
+        explainIssues true
+        // if true, stop the gradle build if errors are found
+        abortOnError true
+        // if true, only report errors
+        ignoreWarnings false
+
+        checkReleaseBuilds false
+
+        disable 'MissingTranslation'
+    }
+    buildTypes {
+//        gitUpdateModules()
+//        proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        release {
+            minifyEnabled = false
+            debuggable = false
+
+            ndk {
+                minifyEnabled = false
+                debuggable = false
+            }
+        }
+        debug {
+            debuggable = true
+            jniDebuggable = true
+            minifyEnabled = false
+
+            ndk {
+                minifyEnabled = false
+                debuggable = true
+                jniDebuggable = true
+            }
+        }
+
+    }
+    sourceSets {
+        main {
+            java.srcDirs = ['src/main/java', 'src/main/jni/breadwallet-core/Java/root', 'src/main/jni/breadwallet-core/ethereum/Java/root']
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    google()
+}
+
+dependencies {
+    implementation 'commons-io:commons-io:2.4'
+    implementation 'org.eclipse.jetty:jetty-webapp:9.2.19.v20160908'
+    //do not update
+    implementation 'org.eclipse.jetty.websocket:websocket-server:9.2.19.v20160908'
+    //do not update
+    implementation 'org.eclipse.jetty:jetty-continuation:9.2.19.v20160908'
+    //do not update
+    implementation 'org.slf4j:slf4j-api:1.7.22'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:gridlayout-v7:27.1.1'
+    implementation 'com.android.support:support-v13:27.1.1'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.7.0'
+    implementation 'com.google.firebase:firebase-core:16.0.1'
+    implementation 'io.sigpipe:jbsdiff:1.0'
+    implementation 'com.google.zxing:core:3.3.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support.test:runner:1.0.1'
+    implementation 'com.android.support.test:rules:1.0.1'
+    implementation 'junit:junit:4.12'
+    implementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    implementation 'tools.fastlane:screengrab:1.1.0'
+    implementation 'com.bugsnag:bugsnag-android-ndk:1.+'
+//    implementation 'com.google.firebase:firebase-crash:12.0.1'
+//    implementation 'com.google.firebase:firebase-perf:12.0.1'
+}
+apply plugin: 'com.google.gms.google-services'
