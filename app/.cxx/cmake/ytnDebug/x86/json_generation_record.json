@@ -1,0 +1,446 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 23 min SDK version: x86",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "No CMake version was specified in build.gradle. Using default version 3.10.2.",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Trying to locate CMake in local SDK repository.",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- CMake found in SDK at \u0027/home/jhive1/Android/Sdk/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON /home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86/android_gradle_build.json due to:",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json /home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86/android_gradle_build.json file is not present, will remove stale json folder",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file /home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86/build_command.txt, will remove stale json folder",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86\u0027",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86\u0027",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : /home/jhive1/Android/Sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/home/jhive1/TOOLZ/yenten/app\n-DCMAKE_C_FLAGS\u003d-DBITCOIN_TESTNET\u003d0\n-DCMAKE_FIND_ROOT_PATH\u003d/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/prefab/x86/prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003d/home/jhive1/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003dx86\n-DANDROID_NDK\u003d/home/jhive1/Android/Sdk/ndk/22.1.7171670\n-DANDROID_PLATFORM\u003dandroid-23\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DCMAKE_ANDROID_NDK\u003d/home/jhive1/Android/Sdk/ndk/22.1.7171670\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/jhive1/TOOLZ/yenten/app/build/intermediates/cmake/ytnDebug/obj/x86\n-DCMAKE_MAKE_PROGRAM\u003d/home/jhive1/Android/Sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d23\n-DANDROID_TOOLCHAIN\u003dclang\n-DANDROID_STL\u003dc++_static\n-B/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86\n-GNinja\njvmArgs : \n\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"/home/jhive1/TOOLZ/yenten/app\",\n  \"buildDirectory\": \"/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_C_FLAGS\\u003d-DBITCOIN_TESTNET\\u003d0\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003d/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/prefab/x86/prefab\",\n    \"-DCMAKE_BUILD_TYPE\\u003dDebug\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/home/jhive1/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003dx86\",\n    \"-DANDROID_NDK\\u003d/home/jhive1/Android/Sdk/ndk/22.1.7171670\",\n    \"-DANDROID_PLATFORM\\u003dandroid-23\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003dx86\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/home/jhive1/Android/Sdk/ndk/22.1.7171670\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/home/jhive1/TOOLZ/yenten/app/build/intermediates/cmake/ytnDebug/obj/x86\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/home/jhive1/Android/Sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d23\",\n    \"-DANDROID_TOOLCHAIN\\u003dclang\",\n    \"-DANDROID_STL\\u003dc++_static\"\n  ]\n}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at /home/jhive1/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake:449 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\u0027s built-in compiler identification.\\nCall Stack (most recent call first):\\n  /home/jhive1/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\\n  CMakeLists.txt\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "WARN",
+    "message": "CMake Warning at /home/jhive1/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake:449 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake\u0027s built-in compiler identification.\nCall Stack (most recent call first):\n  /home/jhive1/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\n  CMakeLists.txt\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /home/jhive1/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang\",\"type\":\"message\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: /home/jhive1/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at /home/jhive1/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake:449 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\u0027s built-in compiler identification.\\nCall Stack (most recent call first):\\n  /home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  /home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "WARN",
+    "message": "CMake Warning at /home/jhive1/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake:449 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake\u0027s built-in compiler identification.\nCall Stack (most recent call first):\n  /home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /home/jhive1/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works\",\"type\":\"message\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: /home/jhive1/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info - done",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features - done",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /home/jhive1/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++\",\"type\":\"message\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: /home/jhive1/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /home/jhive1/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works\",\"type\":\"message\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: /home/jhive1/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info - done",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features - done",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Configuring done",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"compute\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Generating done",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"cmakeInputs\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"../../../Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake\",\"../../../Android/Sdk/ndk/22.1.7171670/build/cmake/platforms.cmake\",\"../../../Android/Sdk/ndk/22.1.7171670/build/cmake/compiler_id.cmake\",\"../../../Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\".cxx/cmake/ytnDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake\",\".cxx/cmake/ytnDebug/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/cmake/ytnDebug/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\".cxx/cmake/ytnDebug/x86/CMakeFiles/feature_tests.c\",\".cxx/cmake/ytnDebug/x86/CMakeFiles/feature_tests.c\",\".cxx/cmake/ytnDebug/x86/CMakeFiles/feature_tests.c\",\".cxx/cmake/ytnDebug/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/cmake/ytnDebug/x86/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/ytnDebug/x86/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/ytnDebug/x86/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/ytnDebug/x86/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/ytnDebug/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\"]}],\"cmakeRootDirectory\":\"/home/jhive1/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"/home/jhive1/TOOLZ/yenten/app\",\"type\":\"reply\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"codemodel\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"configurations\":[{\"name\":\"Debug\",\"projects\":[{\"buildDirectory\":\"/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86\",\"name\":\"Project\",\"sourceDirectory\":\"/home/jhive1/TOOLZ/yenten/app\",\"targets\":[{\"artifacts\":[\"/home/jhive1/TOOLZ/yenten/app/build/intermediates/cmake/ytnDebug/obj/x86/libcore.so\"],\"buildDirectory\":\"/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security -DBITCOIN_TESTNET\u003d0 -std\u003dc99 -DANDROID_STL\u003dgnustl_static -DANDROID_TOOLCHAIN\u003dclang -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"core_EXPORTS\"],\"includePath\":[{\"path\":\"/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/rlp\"},{\"path\":\"/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/util\"},{\"path\":\"/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/Java\"},{\"path\":\"/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum\"},{\"path\":\"/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/bcash\"},{\"path\":\"/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java\"},{\"path\":\"/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core\"},{\"path\":\"/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/secp256k1/include\"},{\"path\":\"/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/secp256k1/src\"},{\"path\":\"/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/secp256k1\"},{\"path\":\"/home/jhive1/TOOLZ/yenten/app/src/main/secp/secp256k1/include\"},{\"path\":\"/home/jhive1/TOOLZ/yenten/app/src/main/secp/secp256k1/src\"},{\"path\":\"/home/jhive1/TOOLZ/yenten/app/src/main/secp/secp256k1\"},{\"path\":\"/home/jhive1/TOOLZ/yenten/app/src/main/secp\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/main/jni/breadwallet-core/yescrypt/yescrypt.c\",\"src/main/jni/breadwallet-core/BRAddress.c\",\"src/main/jni/breadwallet-core/BRBase58.c\",\"src/main/jni/breadwallet-core/BRBech32.c\",\"src/main/jni/breadwallet-core/BRBIP32Sequence.c\",\"src/main/jni/breadwallet-core/BRBIP38Key.c\",\"src/main/jni/breadwallet-core/BRBIP39Mnemonic.c\",\"src/main/jni/breadwallet-core/BRBloomFilter.c\",\"src/main/jni/breadwallet-core/BRCrypto.c\",\"src/main/jni/breadwallet-core/BRKey.c\",\"src/main/jni/breadwallet-core/BRMerkleBlock.c\",\"src/main/jni/breadwallet-core/BRPaymentProtocol.c\",\"src/main/jni/breadwallet-core/BRPeer.c\",\"src/main/jni/breadwallet-core/BRPeerManager.c\",\"src/main/jni/breadwallet-core/BRSet.c\",\"src/main/jni/breadwallet-core/BRTransaction.c\",\"src/main/jni/breadwallet-core/BRWallet.c\",\"src/main/jni/breadwallet-core/bcash/BRBCashAddr.c\",\"src/main/jni/breadwallet-core/Java/BRCoreJni.c\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreJniReference.c\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreAddress.c\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreChainParams.c\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCorePeer.c\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreMasterPubKey.c\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreKey.c\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreMerkleBlock.c\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCorePeerManager.c\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreTransaction.c\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreTransactionInput.c\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreTransactionOutput.c\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCorePaymentProtocol.c\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreWallet.c\",\"src/main/jni/breadwallet-core/ethereum/BREthereumAccount.c\",\"src/main/jni/breadwallet-core/ethereum/BREthereumAmount.c\",\"src/main/jni/breadwallet-core/ethereum/BREthereumBlock.c\",\"src/main/jni/breadwallet-core/ethereum/BREthereumContract.c\",\"src/main/jni/breadwallet-core/ethereum/BREthereumEther.c\",\"src/main/jni/breadwallet-core/ethereum/BREthereumGas.c\",\"src/main/jni/breadwallet-core/ethereum/BREthereumLightNode.c\",\"src/main/jni/breadwallet-core/ethereum/BREthereumNetwork.c\",\"src/main/jni/breadwallet-core/ethereum/BREthereumToken.c\",\"src/main/jni/breadwallet-core/ethereum/BREthereumTransaction.c\",\"src/main/jni/breadwallet-core/ethereum/BREthereumWallet.c\",\"src/main/jni/breadwallet-core/ethereum/rlp/BRRlpCoder.c\",\"src/main/jni/breadwallet-core/ethereum/util/BRUtilHex.c\",\"src/main/jni/breadwallet-core/ethereum/util/BRUtilMath.c\",\"src/main/jni/breadwallet-core/ethereum/util/BRUtilMathParse.c\",\"src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumLightNode.c\",\"src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumNetwork.c\",\"src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumToken.c\"]},{\"isGenerated\":false,\"sources\":[\"src/main/jni/breadwallet-core/yescrypt/yescrypt.h\",\"src/main/jni/breadwallet-core/yescrypt/sha256.h\",\"src/main/jni/breadwallet-core/yescrypt/sha256_c.h\",\"src/main/jni/breadwallet-core/yescrypt/yescrypt-best_c.h\",\"src/main/jni/breadwallet-core/yescrypt/sysendian.h\",\"src/main/jni/breadwallet-core/yescrypt/yescrypt-platform_c.h\",\"src/main/jni/breadwallet-core/yescrypt/yescrypt-opt_c.h\",\"src/main/jni/breadwallet-core/yescrypt/yescrypt-simd_c.h\",\"src/main/jni/breadwallet-core/BRAddress.h\",\"src/main/jni/breadwallet-core/BRArray.h\",\"src/main/jni/breadwallet-core/BRBase58.h\",\"src/main/jni/breadwallet-core/BRBech32.h\",\"src/main/jni/breadwallet-core/BRBIP32Sequence.h\",\"src/main/jni/breadwallet-core/BRBIP38Key.h\",\"src/main/jni/breadwallet-core/BRBIP39Mnemonic.h\",\"src/main/jni/breadwallet-core/BRBIP39WordsEn.h\",\"src/main/jni/breadwallet-core/BRBloomFilter.h\",\"src/main/jni/breadwallet-core/BRCrypto.h\",\"src/main/jni/breadwallet-core/BRInt.h\",\"src/main/jni/breadwallet-core/BRKey.h\",\"src/main/jni/breadwallet-core/BRMerkleBlock.h\",\"src/main/jni/breadwallet-core/BRPaymentProtocol.h\",\"src/main/jni/breadwallet-core/BRPeer.h\",\"src/main/jni/breadwallet-core/BRPeerManager.h\",\"src/main/jni/breadwallet-core/BRSet.h\",\"src/main/jni/breadwallet-core/BRTransaction.h\",\"src/main/jni/breadwallet-core/BRWallet.h\",\"src/main/jni/breadwallet-core/bcash/BRBCashAddr.h\",\"src/main/jni/breadwallet-core/bcash/BRBCashParams.h\",\"src/main/jni/breadwallet-core/Java/BRCoreJni.h\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreJniReference.h\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreAddress.h\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreChainParams.h\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCorePeer.h\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreMasterPubKey.h\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreKey.h\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreMerkleBlock.h\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCorePeerManager.h\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreTransaction.h\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreTransactionInput.h\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreTransactionOutput.h\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCorePaymentProtocol.h\",\"src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreWallet.h\",\"src/main/jni/breadwallet-core/ethereum/BREthereum.h\",\"src/main/jni/breadwallet-core/ethereum/BREthereumAccount.h\",\"src/main/jni/breadwallet-core/ethereum/BREthereumAmount.h\",\"src/main/jni/breadwallet-core/ethereum/BREthereumBase.h\",\"src/main/jni/breadwallet-core/ethereum/BREthereumBlock.h\",\"src/main/jni/breadwallet-core/ethereum/BREthereumContract.h\",\"src/main/jni/breadwallet-core/ethereum/BREthereumEther.h\",\"src/main/jni/breadwallet-core/ethereum/BREthereumGas.h\",\"src/main/jni/breadwallet-core/ethereum/BREthereumLightNode.h\",\"src/main/jni/breadwallet-core/ethereum/BREthereumNetwork.h\",\"src/main/jni/breadwallet-core/ethereum/BREthereumPrivate.h\",\"src/main/jni/breadwallet-core/ethereum/BREthereumToken.h\",\"src/main/jni/breadwallet-core/ethereum/BREthereumTransaction.h\",\"src/main/jni/breadwallet-core/ethereum/BREthereumWallet.h\",\"src/main/jni/breadwallet-core/ethereum/rlp/BRRlp.h\",\"src/main/jni/breadwallet-core/ethereum/rlp/BRRlpCoder.h\",\"src/main/jni/breadwallet-core/ethereum/util/BRUtil.h\",\"src/main/jni/breadwallet-core/ethereum/util/BRUtilHex.h\",\"src/main/jni/breadwallet-core/ethereum/util/BRUtilMath.h\",\"src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumAccount.h\",\"src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumAmount.h\",\"src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumLightNode.h\",\"src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumNetwork.h\",\"src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumToken.h\",\"src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumTransaction.h\",\"src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumWallet.h\"]}],\"fullName\":\"libcore.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id\u003dsha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"-landroid -llog -latomic -lm\",\"linkerLanguage\":\"C\",\"name\":\"core\",\"sourceDirectory\":\"/home/jhive1/TOOLZ/yenten/app\",\"sysroot\":\"/home/jhive1/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing cmake",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output /home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86/build_output.txt",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file /home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86/build_command.txt",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  }
+]

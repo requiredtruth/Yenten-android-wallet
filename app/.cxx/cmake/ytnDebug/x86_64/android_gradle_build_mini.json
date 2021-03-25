@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "/home/jhive1/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake",
+    "/home/jhive1/Android/Sdk/ndk/22.1.7171670/build/cmake/platforms.cmake",
+    "/home/jhive1/Android/Sdk/ndk/22.1.7171670/build/cmake/compiler_id.cmake"
+  ],
+  "cleanCommands": [
+    "/home/jhive1/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/home/jhive1/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "core-Debug-x86_64": {
+      "artifactName": "core",
+      "buildCommand": "/home/jhive1/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86_64\" core",
+      "abi": "x86_64",
+      "output": "/home/jhive1/TOOLZ/yenten/app/build/intermediates/cmake/ytnDebug/obj/x86_64/libcore.so",
+      "runtimeFiles": []
+    }
+  }
+}

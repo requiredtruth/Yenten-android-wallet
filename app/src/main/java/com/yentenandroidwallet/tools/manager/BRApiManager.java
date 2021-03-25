@@ -89,11 +89,11 @@ public class BRApiManager {
         }
         Set<CurrencyEntity> set = new LinkedHashSet<>();
         try {
-            JSONArray eli_arr = fetchYenten(context);
-            double eli_multiplier = 0;
-            if(eli_arr != null){
-                JSONObject eli_tmpObj = (JSONObject) eli_arr.get(0);
-                eli_multiplier = eli_tmpObj.getDouble("Last");
+            JSONArray ytn_arr = fetchYenten(context);
+            double ytn_multiplier = 0;
+            if(ytn_arr != null){
+                JSONObject ytn_tmpObj = (JSONObject) ytn_arr.get(0);
+                ytn_multiplier = ytn_tmpObj.getDouble("Last");
             }
             JSONArray arr = backupFetchRates(context, walletManager);
             if (arr != null) {
@@ -104,7 +104,7 @@ public class BRApiManager {
                         JSONObject tmpObj = (JSONObject) arr.get(i);
                         tmp.name = tmpObj.getString("name");
                         tmp.code = tmpObj.getString("code");
-                        tmp.rate = (float) (tmpObj.getDouble("rate")*eli_multiplier);
+                        tmp.rate = (float) (tmpObj.getDouble("rate")*ytn_multiplier);
                         String selectedISO = BRSharedPrefs.getPreferredFiatIso(context);
                         if (tmp.code.equalsIgnoreCase(selectedISO)) {
                             BRSharedPrefs.putPreferredFiatIso(context, tmp.code);

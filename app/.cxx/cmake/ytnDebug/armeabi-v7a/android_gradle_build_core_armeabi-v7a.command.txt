@@ -1,0 +1,7 @@
+Executable : /home/jhive1/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/armeabi-v7a
+core
+jvmArgs : 
+

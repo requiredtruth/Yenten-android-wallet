@@ -515,7 +515,7 @@ definir
 dejar
 delfín
 delgado
-delito
+dytnto
 demora
 denso
 dental
@@ -595,9 +595,9 @@ elefante
 elegir
 elemento
 elevar
-elipse
+ytnpse
 élite
-elixir
+ytnxir
 elogio
 eludir
 embudo
@@ -693,7 +693,7 @@ favor
 fax
 febrero
 fecha
-feliz
+fytnz
 feo
 feria
 feroz
@@ -855,7 +855,7 @@ hebilla
 hebra
 hecho
 helado
-helio
+hytno
 hembra
 herir
 hermano
@@ -1398,7 +1398,7 @@ peine
 pelar
 peldaño
 pelea
-peligro
+pytngro
 pellejo
 pelo
 peluca
@@ -1583,7 +1583,7 @@ reír
 reja
 relato
 relevo
-relieve
+rytneve
 relleno
 reloj
 remar

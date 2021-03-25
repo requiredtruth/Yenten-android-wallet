@@ -1,0 +1,8 @@
+{
+  "ndkVersionFromDsl": "22.1.7171670",
+  "ndkDirProperty": "/home/jhive1/Android/Sdk/android-ndk-r21e",
+  "sdkFolder": "/home/jhive1/Android/Sdk",
+  "sideBySideNdkFolderNames": [
+    "22.1.7171670"
+  ]
+}

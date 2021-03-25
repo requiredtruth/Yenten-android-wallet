@@ -1,0 +1,566 @@
+{
+  "stringTable": {
+    "0": "/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi23 --gcc-toolchain=/home/jhive1/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/jhive1/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/jni/breadwallet-core/ethereum/rlp -I../../../../src/main/jni/breadwallet-core/ethereum/util -I../../../../src/main/jni/breadwallet-core/ethereum/Java -I../../../../src/main/jni/breadwallet-core/ethereum -I../../../../src/main/jni/breadwallet-core/bcash -I../../../../src/main/jni/breadwallet-core/Java -I../../../../src/main/jni/breadwallet-core -I../../../../src/main/jni/breadwallet-core/secp256k1/include -I../../../../src/main/jni/breadwallet-core/secp256k1/src -I../../../../src/main/jni/breadwallet-core/secp256k1 -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "/home/jhive1/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake",
+    "/home/jhive1/Android/Sdk/ndk/22.1.7171670/build/cmake/platforms.cmake",
+    "/home/jhive1/Android/Sdk/ndk/22.1.7171670/build/cmake/compiler_id.cmake"
+  ],
+  "cleanCommands": [
+    "/home/jhive1/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/home/jhive1/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "core-Debug-armeabi-v7a": {
+      "buildCommand": "/home/jhive1/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/armeabi-v7a\" core",
+      "buildType": "debug",
+      "toolchain": "3509844706",
+      "abi": "armeabi-v7a",
+      "artifactName": "core",
+      "files": [
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/yescrypt/yescrypt.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRAddress.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRBase58.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRBech32.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRBIP32Sequence.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRBIP38Key.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRBIP39Mnemonic.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRBloomFilter.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRCrypto.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRKey.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRMerkleBlock.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRPaymentProtocol.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRPeer.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRPeerManager.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRSet.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRTransaction.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRWallet.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/bcash/BRBCashAddr.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/BRCoreJni.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreJniReference.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreAddress.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreChainParams.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCorePeer.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreMasterPubKey.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreKey.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreMerkleBlock.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCorePeerManager.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreTransaction.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreTransactionInput.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreTransactionOutput.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCorePaymentProtocol.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreWallet.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumAccount.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumAmount.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumBlock.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumContract.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumEther.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumGas.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumLightNode.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumNetwork.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumToken.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumTransaction.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumWallet.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/rlp/BRRlpCoder.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/util/BRUtilHex.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/util/BRUtilMath.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/util/BRUtilMathParse.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumLightNode.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumNetwork.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumToken.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/yescrypt/yescrypt.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/yescrypt/sha256.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/yescrypt/sha256_c.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/yescrypt/yescrypt-best_c.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/yescrypt/sysendian.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/yescrypt/yescrypt-platform_c.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/yescrypt/yescrypt-opt_c.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/yescrypt/yescrypt-simd_c.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRAddress.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRArray.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRBase58.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRBech32.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRBIP32Sequence.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRBIP38Key.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRBIP39Mnemonic.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRBIP39WordsEn.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRBloomFilter.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRCrypto.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRInt.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRKey.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRMerkleBlock.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRPaymentProtocol.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRPeer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRPeerManager.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRSet.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRTransaction.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/BRWallet.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/bcash/BRBCashAddr.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/bcash/BRBCashParams.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/BRCoreJni.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreJniReference.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreAddress.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreChainParams.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCorePeer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreMasterPubKey.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreKey.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreMerkleBlock.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCorePeerManager.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreTransaction.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreTransactionInput.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreTransactionOutput.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCorePaymentProtocol.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/Java/com_yentenandroidwallet_core_BRCoreWallet.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereum.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumAccount.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumAmount.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumBase.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumBlock.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumContract.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumEther.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumGas.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumLightNode.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumNetwork.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumPrivate.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumToken.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumTransaction.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/BREthereumWallet.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/rlp/BRRlp.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/rlp/BRRlpCoder.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/util/BRUtil.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/util/BRUtilHex.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/util/BRUtilMath.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumAccount.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumAmount.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumLightNode.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumNetwork.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumToken.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumTransaction.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/jhive1/TOOLZ/yenten/app/src/main/jni/breadwallet-core/ethereum/Java/com_yentenandroidwallet_core_ethereum_BREthereumWallet.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/home/jhive1/TOOLZ/yenten/app/build/intermediates/cmake/ytnDebug/obj/armeabi-v7a/libcore.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "3509844706": {
+      "cCompilerExecutable": "/home/jhive1/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

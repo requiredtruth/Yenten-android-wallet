@@ -18,7 +18,7 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/YentenLogo"
+                android:id="@+id/ElicoinLogo"
                 android:layout_width="128dp"
                 android:layout_height="64dp"
                 android:layout_marginLeft="8dp"
@@ -46,7 +46,7 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/YentenLogo"
+                app:layout_constraintTop_toBottomOf="@+id/ElicoinLogo"
                 tools:layout_editor_absoluteX="8dp" />
 
             <LinearLayout

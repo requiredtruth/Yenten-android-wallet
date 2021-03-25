@@ -1,0 +1,176 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 23 min SDK version: x86",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "No CMake version was specified in build.gradle. Using default version 3.10.2.",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Trying to locate CMake in local SDK repository.",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- CMake found in SDK at \u0027/home/jhive1/Android/Sdk/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON /home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86/android_gradle_build.json due to:",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json /home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86/android_gradle_build.json file is not present, will remove stale json folder",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file /home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86/build_command.txt, will remove stale json folder",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86\u0027",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : /home/jhive1/Android/Sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/home/jhive1/TOOLZ/yenten/app\n-DCMAKE_C_FLAGS\u003d-DBITCOIN_TESTNET\u003d0\n-DCMAKE_FIND_ROOT_PATH\u003d/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/prefab/x86/prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003d/home/jhive1/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003dx86\n-DANDROID_NDK\u003d/home/jhive1/Android/Sdk/ndk/22.1.7171670\n-DANDROID_PLATFORM\u003dandroid-23\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DCMAKE_ANDROID_NDK\u003d/home/jhive1/Android/Sdk/ndk/22.1.7171670\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/jhive1/TOOLZ/yenten/app/build/intermediates/cmake/ytnDebug/obj/x86\n-DCMAKE_MAKE_PROGRAM\u003d/home/jhive1/Android/Sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d23\n-DANDROID_TOOLCHAIN\u003dclang\n-DANDROID_STL\u003dgnustl_static\n-B/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86\n-GNinja\njvmArgs : \n\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"/home/jhive1/TOOLZ/yenten/app\",\n  \"buildDirectory\": \"/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_C_FLAGS\\u003d-DBITCOIN_TESTNET\\u003d0\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003d/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/prefab/x86/prefab\",\n    \"-DCMAKE_BUILD_TYPE\\u003dDebug\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/home/jhive1/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003dx86\",\n    \"-DANDROID_NDK\\u003d/home/jhive1/Android/Sdk/ndk/22.1.7171670\",\n    \"-DANDROID_PLATFORM\\u003dandroid-23\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003dx86\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/home/jhive1/Android/Sdk/ndk/22.1.7171670\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/home/jhive1/TOOLZ/yenten/app/build/intermediates/cmake/ytnDebug/obj/x86\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/home/jhive1/Android/Sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d23\",\n    \"-DANDROID_TOOLCHAIN\\u003dclang\",\n    \"-DANDROID_STL\\u003dgnustl_static\"\n  ]\n}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Error at /home/jhive1/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake:250 (message):\\n  gnustl_static is no longer supported.  Please switch to either c++_shared\\n  or c++_static.  See\\n  https://developer.android.com/ndk/guides/cpp-support.html for more\\n  information.\\nCall Stack (most recent call first):\\n  /home/jhive1/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\\n  CMakeLists.txt\\n\\n\",\"title\":\"Error\",\"type\":\"message\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "ERROR",
+    "message": "CMake Error at /home/jhive1/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake:250 (message):\n  gnustl_static is no longer supported.  Please switch to either c++_shared\n  or c++_static.  See\n  https://developer.android.com/ndk/guides/cpp-support.html for more\n  information.\nCall Stack (most recent call first):\n  /home/jhive1/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\n  CMakeLists.txt\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage\",\"title\":\"Error\",\"type\":\"message\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "ERROR",
+    "message": "CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage\",\"title\":\"Error\",\"type\":\"message\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "ERROR",
+    "message": "CMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring incomplete, errors occurred!\",\"type\":\"message\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Configuring incomplete, errors occurred!",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"errorMessage\":\"Configuration failed.\",\"inReplyTo\":\"configure\",\"type\":\"error\"}\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "ERROR",
+    "message": "Configuration failed.",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed with problem. Exception: com.android.ide.common.process.ProcessException: Error configuring CMake server (/home/jhive1/Android/Sdk/cmake/3.10.2.4988404/bin).\r\nCMake Error at /home/jhive1/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake:250 (message):\n  gnustl_static is no longer supported.  Please switch to either c++_shared\n  or c++_static.  See\n  https://developer.android.com/ndk/guides/cpp-support.html for more\n  information.\nCall Stack (most recent call first):\n  /home/jhive1/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\n  CMakeLists.txt\n\n\nCMake Error: CMAKE_C_COMPILER not set, after EnableLanguage\nCMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage\nConfiguring incomplete, errors occurred!\n",
+    "file": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+    "tag": "ytnDebug|x86"
+  }
+]

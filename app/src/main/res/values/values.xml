@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="buy_link" translatable="false">https://crex24.com/exchange/YTN-BTC</string>
-    <string name="block_explorer_link" translatable="false">http://block.yenten.net/</string>
-    <string name="web_page_link" translatable="false">https://yenten.net/</string>
-    <string name="github_link" translatable="false">https://github.com/yenten/yenten</string>
+    <string name="buy_link" translatable="false">https://crex24.com/exchange/ELI-BTC</string>
+    <string name="block_explorer_link" translatable="false">http://block.elicoin.net/</string>
+    <string name="web_page_link" translatable="false">https://elicoin.net/</string>
+    <string name="github_link" translatable="false">https://github.com/elicoin/elicoin</string>
     <!--<string name="default_web_client_id" translatable="false"></string>-->
     <!--<string name="gcm_defaultSenderId" translatable="false">1094171723819</string>-->
     <!--<string name="firebase_database_url" translatable="false">https://breadwallet-c14dc.firebaseio.com/</string>-->

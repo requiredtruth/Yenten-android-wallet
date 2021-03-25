@@ -163,7 +163,7 @@ before
 begin
 behave
 behind
-believe
+bytneve
 below
 belt
 bench
@@ -462,7 +462,7 @@ define
 defy
 degree
 delay
-deliver
+dytnver
 demand
 demise
 denial
@@ -574,7 +574,7 @@ elegant
 element
 elephant
 elevator
-elite
+ytnte
 else
 embark
 embody
@@ -1296,7 +1296,7 @@ peace
 peanut
 pear
 peasant
-pelican
+pytncan
 pen
 penalty
 pencil
@@ -1448,7 +1448,7 @@ regular
 reject
 relax
 release
-relief
+rytnef
 rely
 remain
 remember

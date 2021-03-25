@@ -157,7 +157,7 @@ assurer
 asticot
 astre
 astuce
-atelier
+atytner
 atome
 atrium
 atroce
@@ -1624,7 +1624,7 @@ rejeter
 rejouer
 relatif
 relever
-relief
+rytnef
 remarque
 remède
 remise
@@ -1881,7 +1881,7 @@ thorax
 tibia
 tiède
 timide
-tirelire
+tirytnre
 tiroir
 tissu
 titane

@@ -1,0 +1,224 @@
+{
+  "abi": "X86",
+  "abiPlatformVersion": 23,
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "cmake": {
+    "cmakeArtifactsBaseFolder": "/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86",
+    "cmakeServerLogFile": "/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86/cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "/home/jhive1/TOOLZ/yenten/app/.cxx/cxx/ytnDebug/x86",
+    "effectiveConfiguration": {
+      "name": "traditional-android-studio-cmake-environment",
+      "description": "Composite reified CMakeSettings configuration",
+      "generator": "Ninja",
+      "inheritEnvironments": [
+        "ndk"
+      ],
+      "buildRoot": "/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86",
+      "cmakeToolchain": "/home/jhive1/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake",
+      "cmakeExecutable": "/home/jhive1/Android/Sdk/cmake/3.10.2.4988404/bin/cmake",
+      "variables": [
+        {
+          "name": "CMAKE_C_FLAGS",
+          "value": "-DBITCOIN_TESTNET\u003d0"
+        },
+        {
+          "name": "CMAKE_FIND_ROOT_PATH",
+          "value": "/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/prefab/x86/prefab"
+        },
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Debug"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "/home/jhive1/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake"
+        },
+        {
+          "name": "ANDROID_ABI",
+          "value": "x86"
+        },
+        {
+          "name": "ANDROID_NDK",
+          "value": "/home/jhive1/Android/Sdk/ndk/22.1.7171670"
+        },
+        {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-23"
+        },
+        {
+          "name": "CMAKE_ANDROID_ARCH_ABI",
+          "value": "x86"
+        },
+        {
+          "name": "CMAKE_ANDROID_NDK",
+          "value": "/home/jhive1/Android/Sdk/ndk/22.1.7171670"
+        },
+        {
+          "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+          "value": "ON"
+        },
+        {
+          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "value": "/home/jhive1/TOOLZ/yenten/app/build/intermediates/cmake/ytnDebug/obj/x86"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "/home/jhive1/Android/Sdk/cmake/3.10.2.4988404/bin/ninja"
+        },
+        {
+          "name": "CMAKE_SYSTEM_NAME",
+          "value": "Android"
+        },
+        {
+          "name": "CMAKE_SYSTEM_VERSION",
+          "value": "23"
+        },
+        {
+          "name": "ANDROID_TOOLCHAIN",
+          "value": "clang"
+        },
+        {
+          "name": "ANDROID_STL",
+          "value": "c++_static"
+        }
+      ]
+    }
+  },
+  "cxxBuildFolder": "/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86",
+  "info": {
+    "abi": "X86",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/x86",
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DANDROID_TOOLCHAIN\u003dclang",
+      "-DANDROID_STL\u003dc++_static"
+    ],
+    "buildTargetSet": [
+      "core"
+    ],
+    "implicitBuildTargetSet": [],
+    "cFlagsList": [
+      "-DBITCOIN_TESTNET\u003d0"
+    ],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "cppFlagsList": [],
+    "isDebuggableEnabled": true,
+    "module": {
+      "buildSystem": "CMAKE",
+      "cmake": {
+        "cmakeExe": "/home/jhive1/Android/Sdk/cmake/3.10.2.4988404/bin/cmake",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "/home/jhive1/Android/Sdk/cmake/3.10.2.4988404/bin/ninja"
+      },
+      "cmakeToolchainFile": "/home/jhive1/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake",
+      "cxxFolder": "/home/jhive1/TOOLZ/yenten/app/.cxx",
+      "gradleModulePathName": ":app",
+      "intermediatesFolder": "/home/jhive1/TOOLZ/yenten/app/build/intermediates",
+      "makeFile": "/home/jhive1/TOOLZ/yenten/app/CMakeLists.txt",
+      "moduleBuildFile": "/home/jhive1/TOOLZ/yenten/app/build.gradle",
+      "moduleRootFolder": "/home/jhive1/TOOLZ/yenten/app",
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkFolder": "/home/jhive1/Android/Sdk/ndk/22.1.7171670",
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 30,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30
+        }
+      },
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkVersion": "22.1.7171670",
+      "project": {
+        "compilerSettingsCacheFolder": "/home/jhive1/TOOLZ/yenten/.cxx",
+        "cxxFolder": "/home/jhive1/TOOLZ/yenten/.cxx",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "rootBuildGradleFolder": "/home/jhive1/TOOLZ/yenten",
+        "sdkFolder": "/home/jhive1/Android/Sdk",
+        "isPrefabEnabled": false
+      },
+      "splitsAbiFilterSet": [],
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "/home/jhive1/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/home/jhive1/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/home/jhive1/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/home/jhive1/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      }
+    },
+    "objFolder": "/home/jhive1/TOOLZ/yenten/app/build/intermediates/cmake/ytnDebug/obj",
+    "variantName": "ytnDebug",
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "prefabDirectory": "/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/prefab",
+    "prefabPackageDirectoryList": []
+  },
+  "prefabFolder": "/home/jhive1/TOOLZ/yenten/app/.cxx/cmake/ytnDebug/prefab/x86"
+}
