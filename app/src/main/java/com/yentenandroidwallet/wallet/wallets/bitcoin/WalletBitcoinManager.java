@@ -108,10 +108,10 @@ public class WalletBitcoinManager extends BRCoreWalletManager implements BaseWal
 
     public static final int ONE_BITCOIN = 100000000;
 
-    private static final String mName = "Elicoin";
-    public static final String BTC_SCHEME = "elicoin";
+    private static final String mName = "Yenten";
+    public static final String BTC_SCHEME = "yenten";
 
-    public static final long MAX_BTC = 10000000;
+    public static final long MAX_BTC = 80000000;
 
     private static WalletBitcoinManager instance;
     private WalletUiConfiguration uiConfig;
@@ -203,7 +203,7 @@ public class WalletBitcoinManager extends BRCoreWalletManager implements BaseWal
         Context app = YentenApp.getBreadContext();
         if (0 == createWalletAllowedRetries) {
             // The app is dead - tell the user...
-            BRDialog.showSimpleDialog(app, "Wallet error!", "please contact info@elicoin.net");
+            BRDialog.showSimpleDialog(app, "Wallet error!", "please contact requiredtruth@gmail.com");
             // ... for now just this.  App crashes after this
             return null;
         }

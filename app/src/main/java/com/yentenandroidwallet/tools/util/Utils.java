@@ -210,7 +210,7 @@ public class Utils {
         }
         String release = Build.VERSION.RELEASE;
 //        return String.format("%s/%d %s %s/%s", "Bread", versionNumber, cfnetwork, "Android", release);
-        return "ElicoinWallet/" + String.valueOf(versionNumber) + " " + cfnetwork + " Android/" + release;
+        return "YentenWallet/" + String.valueOf(versionNumber) + " " + cfnetwork + " Android/" + release;
     }
 
     public static String reverseHex(String hex) {

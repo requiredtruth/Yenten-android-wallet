@@ -89,7 +89,7 @@ public class BRApiManager {
         }
         Set<CurrencyEntity> set = new LinkedHashSet<>();
         try {
-            JSONArray eli_arr = fetchElicoin(context);
+            JSONArray eli_arr = fetchYenten(context);
             double eli_multiplier = 0;
             if(eli_arr != null){
                 JSONObject eli_tmpObj = (JSONObject) eli_arr.get(0);
@@ -183,12 +183,12 @@ public class BRApiManager {
         }
     }
 
-    public static JSONArray fetchElicoin(Activity app){
+    public static JSONArray fetchYenten(Activity app){
         String url = "https://api.crex24.com/CryptoExchangeService/BotPublic/ReturnTicker?request=[NamePairs=BTC_YTN]";
         String jsonString = urlGET(app, url);
         JSONArray jsonArray = null;
         if (jsonString == null) {
-            Log.e(TAG, "fetchRates for Elicoin: failed, response is null");
+            Log.e(TAG, "fetchRates for Yenten: failed, response is null");
             return null;
         }
         try {
